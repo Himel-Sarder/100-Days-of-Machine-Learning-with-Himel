@@ -1,9 +1,6 @@
-# First update pip
-pip install --upgrade pip
-
-pip install streamlit==1.32.0
-pip install pandas==2.1.4
-pip install numpy==1.26.4
-pip install scikit-learn==1.4.1.post1
-pip install matplotlib==3.8.3
-pip install seaborn==0.13.2
+pip install streamlit
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
