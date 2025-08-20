@@ -25,7 +25,7 @@ Adjust the input parameters using the sliders and select box below.
 @st.cache_data
 def load_data():
     # Load the dataset from the provided path
-    df = pd.read_csv('/kaggle/input/linear-regression-dataset/kaggle.csv', sep=";", encoding='unicode_escape')
+    df = pd.read_csv('kaggle.csv', sep=";", encoding='unicode_escape')
     df.rename(columns={'price(£)': 'price'}, inplace=True)
     
     # Convert categorical 'sex' into numerical values
