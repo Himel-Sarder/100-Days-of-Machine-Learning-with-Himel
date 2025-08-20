@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # Streamlit UI
 # ---------------------------
 st.set_page_config(page_title="Polynomial Regression App", layout="wide")
-st.title("👟 Shoe Price Prediction (Polynomial Regression)")
+st.title("Shoe Price Prediction (Polynomial Regression)")
 st.write("This app predicts **shoe price** based on age, shoe size, and sex using Polynomial Regression.")
 
 # ---------------------------
